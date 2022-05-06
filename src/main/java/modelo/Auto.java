@@ -35,10 +35,10 @@ public class Auto {
    
      public boolean esPaisOrigen(){
         var retorno=false;
-        if(this.marca.equals("FORD")||
-           this.marca.equals("KIA")||
-           this.marca.equals("CHEBROLET")||
-           this.marca.equals("TOYOTA"))
+        if(this.marca.equals("EUROPA")||
+           this.marca.equals("ASIA")||
+           this.marca.equals("CHINA")||
+           this.marca.equals("JAPONES"))
             retorno=true;
         return retorno;
     }

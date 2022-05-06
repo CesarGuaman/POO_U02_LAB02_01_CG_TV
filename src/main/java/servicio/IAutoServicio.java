@@ -12,10 +12,10 @@ import modelo.Auto;
 public interface IAutoServicio {
     
     public Auto crear(Auto a);
-    public Auto modificar(int y, Auto a);
-    public Auto eliminar(int y);
+    public Auto modificar(int na, Auto a);
+    public Auto eliminar(int a);
     public List<Auto> listar();
-    public int buscarPosicion(int y);
+    public int buscarPosicion(int c);
     
 }
 
